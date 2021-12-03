@@ -1,5 +1,5 @@
 
-|# |Input parameter name / output field |Description |Host env var |Ansible var name  |BeSman script vars |Type |Default | |
+|# |Input parameter name / output field |Descriptidon |Host env var |Ansible var name  |BeSman script vars |Type |Default | |
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|
 | | | | | | |(Mandatory/optional) | | |
 |1 |User name |User with permission to launch oah environments |OAH_USER |oah_user |BES_USER |M |Picks up current user or sets to vagrant | |
