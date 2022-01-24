@@ -1,0 +1,13 @@
+
+---
+	- name: install chrom
+	  hosts: localhost
+	  become: yes
+	  tasks: 
+		  - name: install chrome
+		    shell: |
+			    wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+			    dpkg -i google-chrome-stable_current_amd64.deb
+			    sudo apt-get install -f
+			
+#ref: https://www.wikihow.com/Install-Google-Chrome-Using-Terminal-on-Linux#:~:text=To%20install%20Chrome%20from%20the,deb%20and%20press%20Enter.
