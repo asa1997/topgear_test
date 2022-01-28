@@ -1,3 +1,8 @@
 drupal playbook - 1
 drupal playbook - 2
 drupal playbook - 3
+https://eole-io.github.io/sandstone-doc/install-zmq-php-linux
+https://github.com/Rabrennie/jupyter-php-kernel
+https://github.com/Litipk/Jupyter-PHP
+https://stackoverflow.com/questions/39337127/i-cannot-install-php-composer-in-ubuntu-16-04
+https://getcomposer.org/doc/00-intro.md
