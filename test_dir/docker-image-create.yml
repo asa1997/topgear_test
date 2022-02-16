@@ -1,0 +1,18 @@
+---
+-
+        name: image creation task
+        hosts: localhost
+        become: yes
+        tasks: 
+
+                - name: image creation
+                  command: docker build -t jykdocker/jy-django-app:latest .
+                  args:
+                        chdir: /home/vagrant/Desktop/projects/topgear_test/test_repo
+
+                - name: docker login 
+                  command: docker login -u jykdocker -p Landwm@201
+
+                - name: push the created image
+                  command: docker push  jykdocker/jy-django-app:latest
+
