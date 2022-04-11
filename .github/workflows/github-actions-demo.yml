@@ -25,6 +25,7 @@ jobs:
       - name: Set flag from Commit
         env:
           COMMIT_VAR: is_is_test 
+        run: echo ${COMMIT_VAR}
           
       - run: echo ${COMMIT_VAR}
     
