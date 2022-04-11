@@ -27,7 +27,7 @@ jobs:
           COMMIT_VAR: is_is_test 
         run: echo ${COMMIT_VAR}
           
-      - run: echo ${COMMIT_VAR}
+      - run: echo ${COMMIT_VAR}/test
     
 #       - name: Setting up tag
 #         run: |
