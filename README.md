@@ -1,104 +1,33 @@
----
-template: main.html
-title: Security Data
-hide: 
-    - navigation
-    - toc
----
 
-
-
-## **Hygieia**  3.0  
-**Last scanned  : 23/08/2021 10 IST**
-
-
- | CRITICAL  |  HIGH   |    MEDIUM  |   LOW  |   
- |-----------|---------|------------|--------|
- |  75       |  152    |   74       |    15  |
-
-
-### **Summary**
-<!-- 
-    Deserialization of Untrusted data [**CVE-2015-4852, **CVE-2015-7501, CWE-502]
-
-    Arbitrary code execution [**CVE-2018-1273, CWE-94]
-
-    Prototype Pollution [CWE-400]     -->
-
-Deserialization of Untrusted data &nbsp;&nbsp;&nbsp;&nbsp; **CVE-2015-4852  CWE-502** <br>
-Arbitrary code execution &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **CVE-2018-1273 CWE-94**  <br>
-Deserialization of Untrusted data &nbsp;&nbsp;&nbsp;&nbsp; **CVE-2021-21351** <br>
-Prototype Pollution &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **CWE-400** <br>
-Cross-site Scripting &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **CWE-79**<br>
-information Disclosure &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **CVE-2020-8908  CWE-200**<br>
-
----
-
-## **Odoo**   14.0
-**Last scanned  : 23/08/2021 10 IST**
-
- | CRITICAL  |  HIGH   |    MEDIUM  |   LOW  |   
- |-----------|---------|------------|--------|
- |  75       |  152    |   74       |    15  |
-
-### **Summary**
-
-Deserialization of Untrusted data   &nbsp;&nbsp;**CVE-2019-17626 CWE-94** <br>
-Head-based Buffer Overflow   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2021-25289 CWE-120** <br>
-Double Free &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2019-18874 CWE-415** <br>
-Buffer Overflow &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2020-5313 CWE-119** <br>
-Integer Overflow     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2020-5310 CWE-190** <br>
-HTTP Header Injection &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2020-26137 CWE-644** <br>
-Denial of Service (DoS) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2021-27921 CWE-400** <br>
-Insufficient Validation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2021-25290 CWE-120** <br>
----
-
-## **Hyperledger Fabric**  2.4.0-beta
-**Last scanned  : 23/08/2021 10 IST**
-
- | CRITICAL  |  HIGH   |    MEDIUM  |   LOW  |   
- |-----------|---------|------------|--------|
- |  75       |  152    |   64       |    1   |
-
-### **Summary**
-
-Denial of Service (DoS) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2021-20270 CWE-400** <br>
-Regular Expression Denial of Service (ReDoS)  &nbsp;&nbsp;&nbsp;&nbsp; **CVE-2021-27291 CWE-400** <br>
-Improper Signature Verification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2020-9283 CWE-347** <br>
-Cross-site Request Forgery (CSRF)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2018-1098 CWE-352** <br>
-Symlink Attack &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**CVE-2021-30465 CWE-59** <br>
-
----
-
-
-
-## **TensorFlow**  2.4.3
-**Last scanned  : 23/08/2021 10 IST**
-
- | CRITICAL  |  HIGH   |    MEDIUM  |   LOW  |   
- |-----------|---------|------------|--------|
- |  0        |  0      |   0        |    0   |
-
-
-
-### **Summary**
-
-  free of any threats
-
----
-
-## **ZAP**  2.10.0
-**Last scanned  : 23/08/2021 10 IST**
-
- | CRITICAL  |  HIGH   |    MEDIUM  |   LOW  |   
- |-----------|---------|------------|--------|
- |  0        |  0      |    0       |    0   |
-
-### **Summary**
-
-    free of any threats
-
----
-
-
-
+|# |Input parameter name / output field |Descriptidon |Host env var |Ansible var name  |BeSman script vars |Type |Default | |
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+| | | | | | |(Mandatory/optional) | | |
+|1 |User name |User with permission to launch oah environments |OAH_USER |oah_user |BES_USER |M |Picks up current user or sets to vagrant | |
+|2 |Vagrant box name |Specifies OS type for the VM |vagrant_box |vagrant_box |NA |M |hashicorp/bionic64| |
+|3 |Vagrant root user |The root user of the VM |vagrant_user |vagrant_user |NA |M |vagrant | |
+|4 |Host name |The name of the host vm |vagrant_hostname |vagrant_hostname |NA |M |oah-bes-vm| |
+|5 |Webserver |The web server software to use. |drupalvm_webserver |oah_env_webserver |BESMAN_ENV_WEBSERVER |O |Apache| |
+|6 |database |The database system to use. |drupal_db_backend |oah_env_db_backend |BESMAN_ENV_DB_BACKENED |O |mysql| |
+|7 |Build composer flag |Setting this flag to true allows the user to install drupal using composer |drupal_build_composer |oah_build_composer |BESMAN_ENV_BUILD_COMPOSER |O |false | |
+|8 |composer. json path |Path under which composer.json fie resides |drupal_composer_path |oah_composer_path |BESMAN_ENV_COMPOSER_PATH |O |Inside the provisioned Drupal environment | |
+|9| drupal composer package|Version of drupal code base that composer downed.  | drupal_composer_project_package|oah_composer_project_package| BESMAN_ENV_COMPOSER_PROJECT_PACKAGE|o| drupal/recommended-project:^9@dev| |
+|10|drupal install directory  path|Setting path under which drupal get installed. |drupal_composer_install_dir|oah_composer_install_dir| BESMAN_ENV_COMPOSER_INSTALL_DIR|O |/var/www/html/drupal| |
+|11|Drupal project relase options|select the type of relase package(stable, dev etc. )|drupal_composer_project_options|oah_composer_project_options|BESMAN_ENV_COMPOSER_PROJECT_OPTIONS|O|-prefer-dist --stability dev --no-interaction'| |
+|12|Druapal install site|Set this to 'false' if you don't need to install drupal (using the drupal_*settings below), but instead copy down a database (e.g. using drush sql-sync).|drupal_install_site|oah_install_site|BESMAN_ENV_INSTALL_SITE|O| true| |
+|13|Druapl app data path|Main Drupal data path|drupal_core_path|oah_core_path|BESMAN_ENV_CORE_PATH|M |/var/www/drupal/web| |
+|14|Drupal user|Drupal user with admin privilage |drupal_core_owner|oah_core_owner|BESMAN_ENV_CORE_OWNER|M |vagrant | |
+|15|Druapal data base user name|data base username|drupal_db_user|oah_db_user|BESMAN_ENV_DB_USER|M |drupal| |
+|16|Druapal data base password|data base password|drupal_db_password|oah_db_password|BESMAN_ENV_DB_PASSWORD|M |drupal| |
+|17|Drupal DB name|data base name of drupal app|drupal_db_name|oah_db_name|BESMAN_ENV_DB_NAME|M |drupal| |
+|18|Drupal hostname|host/hostname for drupal|drupal_db_host|oah_db_host|BESMAN_ENV_DB_HOST|M |localhost| |
+|19|Latest stable version details|Latest major version of Drupal application|drupal_major_version|oah_major_version|BESMAN_ENV_MAJOR_VERSION|O|latest version (Currnet 9)| |
+|20|Domain for Drupal|Domain name Drupal |drupal_domain|oah_domain|BESMAN_ENV_DOMAIN|O|oah-bes-vm| |
+|21|Site name|Drupal site name|drupal_site_name|oah_site_name|BESMAN_ENV_SITE_NAME|O|Drupal| |
+|22|Profile set up|Provision for setting drupal profile while install |drupal_install_profile|oah_install_profile|BESMAN_ENV_INSTALL_PROFILE|O|standard| |
+|23|Drupal module list|List of module names to be work with drupal |drupal_enable_modules|oah_enable_modules|BESMAN_ENV_ENABLE_MODULES|O|devel| |
+|24|Drupal account username|Drupal app account user name|drupal_account_name|oah_account_name|BESMAN_ENV_ACCOUNT_NAME|O|admin| |
+|25|Drupal account password|Drupal app account user password|drupal_account_pass|oah_account_pass|BESMAN_ENV_ACCOUNT_PASS|O|admin| |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
+| | | | | | | | | |
